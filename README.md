@@ -40,3 +40,22 @@ Release tests: [![GH tests](https://github.com/psychopy/psychopy/actions/workflo
 * Forum: https://discourse.psychopy.org
 * Issue tracker: https://github.com/psychopy/psychopy/issues
 * Changelog: https://www.psychopy.org/changelog.html
+
+## Download Instruction
+
+### open the terminal and change to your desired directory
+
+```git clone https://github.com/DanialGhiaseddin/psychopy.git```
+```cd psychopy```
+
+### Create new virtual environment and activate the environment
+
+```python -m venv venv```
+
+```.\venv\Scripts\activate```
+
+### Install psychopy
+
+```python -m pip install --upgrade pip```
+
+```pip install -e .```
