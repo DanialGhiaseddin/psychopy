@@ -8,3 +8,6 @@
 #   pip install -r requirements_suggested.txt
 
 -e .
+
+# Cerebral system lab added package:
+tdt>=0.5.4
