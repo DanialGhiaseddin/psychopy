@@ -1,0 +1,17 @@
+Speakers:
+  Spk1:
+    TDTPort: "DAC9"
+    ToneStimulation: "ToneStim"
+    NoiseStimulation: "NoiseStim"
+    FileStimulation: "FileStim"
+    Selectors: [ "StimSel", "SyncSel" ]
+    Records: [ "AudioStimRec", "AudioSyncRec" ]
+
+Digital:
+  PhotoDiode:
+    Type: "Input"
+    Records: [ "PhotoDiodeRec" ]
+  NPXSync:
+    Type: "Output"
+    Command: "SyncSig"
+    Records: [ "NeuP" ]

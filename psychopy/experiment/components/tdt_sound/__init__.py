@@ -73,20 +73,20 @@ class TDTSoundComponent(BaseComponent):
             allowedUpdates=_allowed[:],  # use a copy
             hint=_translate("The volume (in range 0 to 1)"),
             label=_localized["volume"])
-        # msg = _translate(
-        #     "A reaction time to a sound stimulus should be based on when "
-        #     "the screen flipped")
-        # self.params['syncScreenRefresh'] = Param(
-        #     syncScreenRefresh, valType='bool', inputType="bool", categ='Basic',
-        #     updates='constant',
-        #     hint=msg,
-        #     label=_localized['syncScreenRefresh'])
-        # self.params['hamming'] = Param(
-        #     True, valType='bool', inputType="bool", updates='constant', categ='Playback',
-        #     hint=_translate(
-        #         "For tones we can apply a Hamming window to prevent 'clicks' that "
-        #         "are caused by a sudden onset. This delays onset by roughly 1ms."),
-        #     label=_translate('Hamming window'))
+        msg = _translate(
+            "A reaction time to a sound stimulus should be based on when "
+            "the screen flipped")
+        self.params['syncScreenRefresh'] = Param(
+            syncScreenRefresh, valType='bool', inputType="bool", categ='Basic',
+            updates='constant',
+            hint=msg,
+            label=_localized['syncScreenRefresh'])
+        self.params['hamming'] = Param(
+            True, valType='bool', inputType="bool", updates='constant', categ='Playback',
+            hint=_translate(
+                "For tones we can apply a Hamming window to prevent 'clicks' that "
+                "are caused by a sudden onset. This delays onset by roughly 1ms."),
+            label=_translate('Hamming window'))
 
         # self.tdt = TDTManager()
         # print(self.tdt.syn)
