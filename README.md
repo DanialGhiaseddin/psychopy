@@ -59,3 +59,5 @@ Release tests: [![GH tests](https://github.com/psychopy/psychopy/actions/workflo
 ```python -m pip install --upgrade pip```
 
 ```pip install -e .```
+
+```pip3 install -r requirements.txt```

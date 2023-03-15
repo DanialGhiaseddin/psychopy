@@ -11,3 +11,4 @@
 
 # Cerebral system lab added package:
 tdt>=0.5.4
+PyYAML>=6.0

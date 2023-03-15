@@ -1,9 +1,9 @@
 Speakers:
   Spk1:
-    TDTPort: "DAC9"
-    ToneStimulation: "ToneStim"
-    NoiseStimulation: "NoiseStim"
-    FileStimulation: "FileStim"
+    Port: "DAC9"
+    Tone: "ToneStim"
+    Noise: "NoiseStim"
+    File: "FileStim"
     Selectors: [ "StimSel", "SyncSel" ]
     Records: [ "AudioStimRec", "AudioSyncRec" ]
 
