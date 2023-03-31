@@ -4,9 +4,9 @@ import tdt
 
 
 class TDTWorkingMode(Enum):
-    IDLE = 0
-    PREVIEW = 1
-    RECORDING = 2
+    IDLE = 1
+    PREVIEW = 2
+    RECORDING = 3
 
 
 class TDTManager(object):
